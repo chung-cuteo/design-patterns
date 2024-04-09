@@ -39,11 +39,11 @@ class VisaPayment {
 
 // define the MonoPayment
 class MonoPayment {
-  constructor(cardNumber, expiryDate, cvv, visaAmount) {
+  constructor(cardNumber, expiryDate, cvv, amount) {
     this.cardNumber = cardNumber;
     this.expiryDate = expiryDate;
     this.cvv = cvv;
-    this.visaAmount = visaAmount;
+    this.amount = amount;
   }
 }
 
